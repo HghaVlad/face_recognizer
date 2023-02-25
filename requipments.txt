@@ -1,0 +1,8 @@
+wheel==0.38.4
+setuptools==66.1.1
+opencv-python==4.7.0.72
+cmake==3.25.2
+dlib==19.24.0
+numpy==1.24.2
+face-recognition==1.3.0
+face-recognition-models==0.3.0
