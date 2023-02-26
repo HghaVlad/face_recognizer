@@ -48,4 +48,8 @@ def complete_faces(): # Get all faces from filesystem and be ready to recognize 
         stored_faces.append(new_face)
         faces_names.append(name)
 
-complete_faces()
+
+if __name__ == "face_recognizer":
+    complete_faces()
+elif __name__ == "__main__":
+    add_face()

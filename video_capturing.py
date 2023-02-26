@@ -8,6 +8,8 @@ camera = cv2.VideoCapture(0)
 font = cv2.FONT_HERSHEY_DUPLEX
 colors = [(0, 0, 0), (255, 0, 0), (0, 255, 0), (0, 0, 255), (255, 255, 0), (0, 128, 0), (128, 128, 128), (255, 128, 0), (0, 255, 255)]
 
+print("Started")
+
 while True:
     ret, frame = camera.read()
     face_locations = face_recognition.face_locations(frame)  # Get all faces locations

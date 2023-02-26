@@ -1,6 +1,7 @@
 import cv2
 import face_recognition
 
+
 img = cv2.imread("example_img.jpg")
 rgb_frame = img[:, :, ::-1]
 
@@ -15,3 +16,4 @@ for top, right, bottom, left in face_locations:
 cv2.imwrite("newimage.jpg", img)
 
 # Detect all faces in the image
+
